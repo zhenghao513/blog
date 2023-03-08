@@ -17,7 +17,7 @@ hero:
       link: /pat/basic/1001
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/zhenghao513/blog
 
 features:
   - icon: 🔑
