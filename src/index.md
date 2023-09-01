@@ -19,6 +19,8 @@ hero:
 features:
   - title: PAT
     details: 💻 浙江大学 PAT 题解（Java or Python）
+  - title: LeetCode
+    details: 🗡 剑指 Offer 题解（JavaScript）
   - title: 配置文件
     details: 📄 快速搭建开发环境和配置项目依赖
 ---

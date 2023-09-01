@@ -224,6 +224,53 @@ export const sidebar: DefaultTheme.Sidebar = [
     ],
   },
   {
+    text: 'LeetCode',
+    items: [
+      {
+        text: '剑指 Offer',
+        collapsed: true,
+        items: [
+          {
+            text: '03. 数组中重复的数字',
+            link: '/leetcode/sword-offer/剑指 Offer 03. 数组中重复的数字',
+          },
+          {
+            text: '05. 替换空格',
+            link: '/leetcode/sword-offer/剑指 Offer 05. 替换空格',
+          },
+          {
+            text: '06. 从尾到头打印链表',
+            link: '/leetcode/sword-offer/剑指 Offer 06. 从尾到头打印链表',
+          },
+          {
+            text: '10- I. 斐波那契数列',
+            link: '/leetcode/sword-offer/剑指 Offer 10- I. 斐波那契数列',
+          },
+          {
+            text: '10- II. 青蛙跳台阶问题',
+            link: '/leetcode/sword-offer/剑指 Offer 10- II. 青蛙跳台阶问题',
+          },
+          {
+            text: '11. 旋转数组的最小数字',
+            link: '/leetcode/sword-offer/剑指 Offer 11. 旋转数组的最小数字',
+          },
+          {
+            text: '15. 二进制中1的个数',
+            link: '/leetcode/sword-offer/剑指 Offer 15. 二进制中1的个数',
+          },
+          {
+            text: '17. 打印从1到最大的n位数',
+            link: '/leetcode/sword-offer/剑指 Offer 17. 打印从1到最大的n位数',
+          },
+          {
+            text: '21. 调整数组顺序使奇数位于偶数前面',
+            link: '/leetcode/sword-offer/剑指 Offer 21. 调整数组顺序使奇数位于偶数前面',
+          },
+        ],
+      },
+    ],
+  },
+  {
     text: '配置文件',
     items: [
       {
