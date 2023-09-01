@@ -15,4 +15,10 @@ hero:
     - theme: alt
       text: 查看 GitHub
       link: https://github.com/zhenghao513/blog
+
+features:
+  - title: PAT
+    details: 💻 浙江大学 PAT 题解（Java or Python）
+  - title: 配置文件
+    details: 📄 快速搭建开发环境和配置项目依赖
 ---
