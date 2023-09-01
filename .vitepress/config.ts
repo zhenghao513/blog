@@ -223,6 +223,26 @@ export const sidebar: DefaultTheme.Sidebar = [
       },
     ],
   },
+  {
+    text: '配置文件',
+    items: [
+      {
+        text: 'Prettier',
+        link: '/profile/prettier',
+        docFooterText: 'Prettier 配置文件',
+      },
+      {
+        text: 'tsconfig.json',
+        link: '/profile/tsconfig.json',
+        docFooterText: 'tsconfig.json 配置文件',
+      },
+      {
+        text: 'Vite',
+        link: '/profile/vite',
+        docFooterText: 'Vite 配置文件',
+      },
+    ],
+  },
 ];
 
 export default defineConfig({
