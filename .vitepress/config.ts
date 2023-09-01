@@ -241,6 +241,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         link: '/profile/vite',
         docFooterText: 'Vite 配置文件',
       },
+      {
+        text: 'GitHub Actions',
+        link: '/profile/github-actions',
+        docFooterText: 'GitHub Actions 配置文件',
+      },
     ],
   },
 ];
