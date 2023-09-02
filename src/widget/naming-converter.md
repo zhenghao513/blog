@@ -28,11 +28,11 @@ const pascalCase = computed(() => {
     .toLowerCase()
     .split(' ')
     .map((v) => {
-      if (v.length > 0 && v !== '') {
+      if (v !== '') {
         return v[0].toUpperCase() + v.slice(1);
       }
 
-      return '';
+      return v;
     })
     .join('');
 });
