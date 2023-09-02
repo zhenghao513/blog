@@ -266,6 +266,34 @@ export const sidebar: DefaultTheme.Sidebar = [
             text: '21. 调整数组顺序使奇数位于偶数前面',
             link: '/leetcode/sword-offer/剑指 Offer 21. 调整数组顺序使奇数位于偶数前面',
           },
+          {
+            text: '39. 数组中出现次数超过一半的数字',
+            link: '/leetcode/sword-offer/剑指 Offer 39. 数组中出现次数超过一半的数字',
+          },
+          {
+            text: '40. 最小的k个数',
+            link: '/leetcode/sword-offer/剑指 Offer 40. 最小的k个数',
+          },
+          {
+            text: '42. 连续子数组的最大和',
+            link: '/leetcode/sword-offer/剑指 Offer 42. 连续子数组的最大和',
+          },
+          {
+            text: '50. 第一个只出现一次的字符',
+            link: '/leetcode/sword-offer/剑指 Offer 50. 第一个只出现一次的字符',
+          },
+          {
+            text: '53 - I. 在排序数组中查找数字 I',
+            link: '/leetcode/sword-offer/剑指 Offer 53 - I. 在排序数组中查找数字 I',
+          },
+          {
+            text: '58 - I. 翻转单词顺序',
+            link: '/leetcode/sword-offer/剑指 Offer 58 - I. 翻转单词顺序',
+          },
+          {
+            text: '58 - II. 左旋转字符串',
+            link: '/leetcode/sword-offer/剑指 Offer 58 - II. 左旋转字符串',
+          },
         ],
       },
     ],
