@@ -321,6 +321,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         link: '/profile/github-actions',
         docFooterText: 'GitHub Actions 配置文件',
       },
+      {
+        text: 'gitignore',
+        link: '/profile/gitignore',
+        docFooterText: 'gitignore 配置文件',
+      },
     ],
   },
   {
