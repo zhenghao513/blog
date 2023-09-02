@@ -82,10 +82,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
+      - uses: pnpm/action-setup@v2
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -97,7 +94,7 @@ jobs:
         run: pnpm install
       - name: Build with VitePress
         run: |
-          pnpm run build
+          pnpm build
           touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
