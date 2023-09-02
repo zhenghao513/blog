@@ -323,6 +323,10 @@ export const sidebar: DefaultTheme.Sidebar = [
       },
     ],
   },
+  {
+    text: '小部件',
+    items: [{ text: '命名转换器', link: '/widget/naming-converter' }],
+  },
 ];
 
 export default defineConfig({

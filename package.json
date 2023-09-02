@@ -6,6 +6,7 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
+    "ant-design-vue": "^4.0.2",
     "vitepress": "1.0.0-rc.10"
   }
 }
