@@ -364,6 +364,9 @@ export default defineConfig({
         link: 'https://github.com/zhenghao513',
       },
     ],
+    search: {
+      provider: 'local',
+    },
   },
   markdown: {
     lineNumbers: true,
