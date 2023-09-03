@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue';
-import { Input } from 'ant-design-vue';
+import { Input as AInput } from 'ant-design-vue';
 import 'ant-design-vue/es/input/style';
 
 const variable = ref('');
@@ -40,16 +40,18 @@ const pascalCase = computed(() => {
 
 # 命名转换器
 
-### <Input v-model:value="variable" />
+<div style="margin-top: 32px">
+  <AInput v-model:value="variable" />
+</div>
 
-### kebab-case（短横线）
+### kebab-case <Badge type="info" text="短横线" />
 
 {{ kebabCase }}
 
-### camelCase（小驼峰）
+### camelCase <Badge type="info" text="小驼峰" />
 
 {{ camelCase }}
 
-### PascalCase（大驼峰）
+### PascalCase <Badge type="info" text="大驼峰" />
 
 {{ pascalCase }}
