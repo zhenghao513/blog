@@ -14,7 +14,7 @@ const camelCase = computed(() => {
     .toLowerCase()
     .split(' ')
     .map((v, i) => {
-      if (i > 0 && v !== '') {
+      if (i > 0 && v) {
         return v[0].toUpperCase() + v.slice(1);
       }
 
@@ -28,7 +28,7 @@ const pascalCase = computed(() => {
     .toLowerCase()
     .split(' ')
     .map((v) => {
-      if (v !== '') {
+      if (v) {
         return v[0].toUpperCase() + v.slice(1);
       }
 
