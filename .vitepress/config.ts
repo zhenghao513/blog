@@ -358,6 +358,12 @@ export default defineConfig({
       label: '本页目录',
       level: 'deep',
     },
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/zhenghao513',
+      },
+    ],
   },
   markdown: {
     lineNumbers: true,
