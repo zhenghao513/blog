@@ -6,19 +6,19 @@ import 'ant-design-vue/es/input/style';
 const variable = ref('');
 
 const kebabCase = computed(() => {
-  return variable.value.toLowerCase().split(' ').join('-');
+  return variable.value.toLowerCase().split(/\s+/).join('-');
 });
 
 const camelCase = computed(() => {
   return variable.value
     .toLowerCase()
-    .split(' ')
-    .map((v, i) => {
-      if (i > 0 && v) {
-        return v[0].toUpperCase() + v.slice(1);
+    .split(/\s+/)
+    .map((word, index) => {
+      if (index > 0 && word) {
+        return word[0].toUpperCase() + word.slice(1);
       }
 
-      return v;
+      return word;
     })
     .join('');
 });
@@ -26,13 +26,13 @@ const camelCase = computed(() => {
 const pascalCase = computed(() => {
   return variable.value
     .toLowerCase()
-    .split(' ')
-    .map((v) => {
-      if (v) {
-        return v[0].toUpperCase() + v.slice(1);
+    .split(/\s+/)
+    .map((word) => {
+      if (word) {
+        return word[0].toUpperCase() + word.slice(1);
       }
 
-      return v;
+      return word;
     })
     .join('');
 });
