@@ -6,7 +6,12 @@ import 'ant-design-vue/es/input/style';
 const variable = ref('');
 
 const kebabCase = computed(() => {
-  return variable.value.toLowerCase().split(/\s+/).join('-');
+  return variable.value
+    .replaceAll(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+    .split(/\s/)
+    .join('-');
 });
 
 const camelCase = computed(() => {
