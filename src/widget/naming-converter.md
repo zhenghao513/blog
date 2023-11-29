@@ -7,10 +7,9 @@ const variable = ref('');
 
 const kebabCase = computed(() => {
   return variable.value
-    .replaceAll(/\s+/g, ' ')
     .trim()
     .toLowerCase()
-    .split(/\s/)
+    .split(/\s+/)
     .join('-');
 });
 
