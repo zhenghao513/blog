@@ -326,6 +326,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         link: '/profile/gitignore',
         docFooterText: 'gitignore 配置文件',
       },
+      {
+        text: 'vscode-settings',
+        link: '/profile/vscode-settings',
+        docFooterText: 'vscode-settings 配置文件',
+      },
     ],
   },
   {
