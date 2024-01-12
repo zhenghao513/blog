@@ -4,6 +4,7 @@ import {
   Input as AInput,
   Form as AForm,
   FormItem as AFormItem,
+  TypographyParagraph as ATypographyParagraph,
 } from 'ant-design-vue'
 
 const variable = ref('');
@@ -82,15 +83,15 @@ const blockElementModifierCase = computed(() => {
 
 ### kebab-case <Badge type="info" text="短横线" />
 
-{{ kebabCase }}
+<ATypographyParagraph copyable>{{ kebabCase }}</ATypographyParagraph>
 
 ### camelCase <Badge type="info" text="小驼峰" />
 
-{{ camelCase }}
+<ATypographyParagraph copyable>{{ camelCase }}</ATypographyParagraph>
 
 ### PascalCase <Badge type="info" text="大驼峰" />
 
-{{ pascalCase }}
+<ATypographyParagraph copyable>{{ pascalCase }}</ATypographyParagraph>
 
 <div style="margin-top: 32px">
   <AForm
@@ -120,4 +121,4 @@ const blockElementModifierCase = computed(() => {
 
 ### block\_\_element--modifier <Badge type="info" text="BEM" />
 
-{{ blockElementModifierCase }}
+<ATypographyParagraph copyable>{{ blockElementModifierCase }}</ATypographyParagraph>
