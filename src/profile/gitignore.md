@@ -14,8 +14,8 @@ node_modules
 dist
 dist-ssr
 *.local
-.vitepress/cache
-.vitepress/dist
+
+components.d.ts
 
 # Editor directories and files
 .vscode/*
