@@ -78,7 +78,7 @@ const blockElementModifierCase = computed(() => {
 # 命名转换器
 
 <div style="margin-top: 32px">
-  <AInput v-model:value="variable" />
+  <AInput v-model:value="variable" allow-clear />
 </div>
 
 ### kebab-case <Badge type="info" text="短横线" />
@@ -102,19 +102,19 @@ const blockElementModifierCase = computed(() => {
       label="块"
       colon
     >
-      <AInput v-model:value="block" />
+      <AInput v-model:value="block" allow-clear />
     </AFormItem>
     <AFormItem
       label="元素"
       colon
     >
-      <AInput v-model:value="element" />
+      <AInput v-model:value="element" allow-clear />
     </AFormItem>
     <AFormItem
       label="修饰"
       colon
     >
-      <AInput v-model:value="modifier" />
+      <AInput v-model:value="modifier" allow-clear />
     </AFormItem>
   </AForm>
 </div>
