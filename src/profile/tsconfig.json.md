@@ -33,8 +33,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "auto-imports.d.ts",
-    "components.d.ts",
-    "vite.config.ts"
+    "components.d.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
