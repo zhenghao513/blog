@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitepress';
-import type { DefaultTheme } from 'vitepress';
+import { defineConfig } from 'vitepress'
+import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Sidebar = [
   {
@@ -302,42 +302,48 @@ export const sidebar: DefaultTheme.Sidebar = [
     text: '配置文件',
     items: [
       {
-        text: 'Prettier',
-        link: '/profile/prettier',
-        docFooterText: 'Prettier 配置文件',
+        text: '.eslintrc 配置文件',
+        link: '/profile/.eslintrc',
+        docFooterText: '.eslintrc 配置文件',
       },
       {
-        text: 'tsconfig.json',
-        link: '/profile/tsconfig.json',
-        docFooterText: 'tsconfig.json 配置文件',
-      },
-      {
-        text: 'Vite',
-        link: '/profile/vite',
-        docFooterText: 'Vite 配置文件',
-      },
-      {
-        text: 'GitHub Actions',
+        text: 'GitHub Actions 配置文件',
         link: '/profile/github-actions',
         docFooterText: 'GitHub Actions 配置文件',
       },
       {
-        text: 'gitignore',
+        text: 'gitignore 配置文件',
         link: '/profile/gitignore',
         docFooterText: 'gitignore 配置文件',
       },
       {
-        text: 'vscode-settings',
+        text: 'Prettier 配置文件',
+        link: '/profile/prettier',
+        docFooterText: 'Prettier 配置文件',
+      },
+      {
+        text: 'tsconfig.json 配置文件',
+        link: '/profile/tsconfig.json',
+        docFooterText: 'tsconfig.json 配置文件',
+      },
+      {
+        text: 'Vite 配置文件',
+        link: '/profile/vite',
+        docFooterText: 'Vite 配置文件',
+      },
+      {
+        text: 'vscode-settings 配置文件',
         link: '/profile/vscode-settings',
         docFooterText: 'vscode-settings 配置文件',
       },
     ],
+
   },
   {
     text: '小部件',
     items: [{ text: '命名转换器', link: '/widget/naming-converter' }],
   },
-];
+]
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -376,4 +382,4 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
-});
+})
