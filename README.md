@@ -1,6 +1,6 @@
 # blog
 
-科技艺术的博客
+📕 Zheng Hao's blog
 
 ## 目录
 
