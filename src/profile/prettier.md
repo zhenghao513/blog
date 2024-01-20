@@ -3,11 +3,10 @@
 ```json
 {
   "tabWidth": 2,
-  "semi": true,
+  "semi": false,
   "singleQuote": true,
   "trailingComma": "all",
   "arrowParens": "always",
-  "singleAttributePerLine": true,
-  "htmlWhitespaceSensitivity": "ignore"
+  "singleAttributePerLine": true
 }
 ```
