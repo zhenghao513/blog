@@ -296,6 +296,110 @@ export const sidebar: DefaultTheme.Sidebar = [
           },
         ],
       },
+      {
+        text: 'easy', collapsed: true, items: [
+          {
+            text: '1. 两数之和',
+            link: '/leetcode/easy/1. 两数之和',
+            docFooterText: '1. 两数之和',
+          },
+          {
+            text: '9. 回文数',
+            link: '/leetcode/easy/9. 回文数',
+            docFooterText: '9. 回文数',
+          },
+          {
+            text: '13. 罗马数字转整数',
+            link: '/leetcode/easy/13. 罗马数字转整数',
+            docFooterText: '13. 罗马数字转整数',
+          },
+          {
+            text: '20. 有效的括号',
+            link: '/leetcode/easy/20. 有效的括号',
+            docFooterText: '20. 有效的括号',
+          },
+          {
+            text: '26. 删除有序数组中的重复项',
+            link: '/leetcode/easy/26. 删除有序数组中的重复项',
+            docFooterText: '26. 删除有序数组中的重复项',
+          },
+          {
+            text: '27. 移除元素',
+            link: '/leetcode/easy/27. 移除元素',
+            docFooterText: '27. 移除元素',
+          },
+          {
+            text: '28. 找出字符串中第一个匹配项的下标',
+            link: '/leetcode/easy/28. 找出字符串中第一个匹配项的下标',
+            docFooterText: '28. 找出字符串中第一个匹配项的下标',
+          },
+          {
+            text: '35. 搜索插入位置',
+            link: '/leetcode/easy/35. 搜索插入位置',
+            docFooterText: '35. 搜索插入位置',
+          },
+          {
+            text: '58. 最后一个单词的长度',
+            link: '/leetcode/easy/58. 最后一个单词的长度',
+            docFooterText: '58. 最后一个单词的长度',
+          },
+          {
+            text: '66. 加一',
+            link: '/leetcode/easy/66. 加一',
+            docFooterText: '66. 加一',
+          },
+          {
+            text: '67. 二进制求和',
+            link: '/leetcode/easy/67. 二进制求和',
+            docFooterText: '67. 二进制求和',
+          },
+          {
+            text: '69. x 的平方根',
+            link: '/leetcode/easy/69. x 的平方根',
+            docFooterText: '69. x 的平方根',
+          },
+          {
+            text: '70. 爬楼梯',
+            link: '/leetcode/easy/70. 爬楼梯',
+            docFooterText: '70. 爬楼梯',
+          },
+          {
+            text: '88. 合并两个有序数组',
+            link: '/leetcode/easy/88. 合并两个有序数组',
+            docFooterText: '88. 合并两个有序数组',
+          },
+          {
+            text: '118. 杨辉三角',
+            link: '/leetcode/easy/118. 杨辉三角',
+            docFooterText: '118. 杨辉三角',
+          },
+          {
+            text: '119. 杨辉三角 II',
+            link: '/leetcode/easy/119. 杨辉三角 II',
+            docFooterText: '119. 杨辉三角 II',
+          },
+          {
+            text: '121. 买卖股票的最佳时机',
+            link: '/leetcode/easy/121. 买卖股票的最佳时机',
+            docFooterText: '121. 买卖股票的最佳时机',
+          },
+          {
+            text: '125. 验证回文串',
+            link: '/leetcode/easy/125. 验证回文串',
+            docFooterText: '125. 验证回文串',
+          },
+          {
+            text: '136. 只出现一次的数字',
+            link: '/leetcode/easy/136. 只出现一次的数字',
+            docFooterText: '136. 只出现一次的数字',
+          },
+          {
+            text: '169. 多数元素',
+            link: '/leetcode/easy/169. 多数元素',
+            docFooterText: '169. 多数元素',
+          },
+        ],
+      },
     ],
   },
   {
