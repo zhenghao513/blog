@@ -45,6 +45,10 @@ const pascalCase = computed(() => {
     .join('');
 });
 
+const constantCase = computed(() => {
+  return kebabCase.value.toUpperCase().replace('-', '_');
+});
+
 const block = ref('')
 const element = ref('')
 const modifier = ref('')
@@ -92,6 +96,10 @@ const blockElementModifierCase = computed(() => {
 ### PascalCase <Badge type="info" text="大驼峰" />
 
 <ATypographyParagraph copyable>{{ pascalCase }}</ATypographyParagraph>
+
+### CONSTANT_CASE <Badge type="info" text="常量" />
+
+<ATypographyParagraph copyable>{{ constantCase }}</ATypographyParagraph>
 
 <div style="margin-top: 32px">
   <AForm
