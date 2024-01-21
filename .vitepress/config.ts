@@ -303,7 +303,7 @@ export const sidebar: DefaultTheme.Sidebar = [
     items: [
       {
         text: '.eslintrc 配置文件',
-        link: '/profile/.eslintrc',
+        link: '/profile/eslintrc',
         docFooterText: '.eslintrc 配置文件',
       },
       {
