@@ -9,16 +9,15 @@ import {
 
 const variable = ref('');
 
-const kebabCase = computed(() => {
-  return variable.value.trim().toLowerCase().split(/\s+/).join('-');
-});
+const standardFormat = computed(() => variable.value.trim().toLowerCase());
+
+const kebabCase = computed(() => standardFormat.value.replace(/\s+/g, '-'));
 
 const camelCase = computed(() => {
-  return variable.value
-    .toLowerCase()
+  return standardFormat.value
     .split(/\s+/)
     .map((word, index) => {
-      if (index > 0 && word) {
+      if (index > 0) {
         return word[0].toUpperCase() + word.slice(1);
       }
 
@@ -28,8 +27,7 @@ const camelCase = computed(() => {
 });
 
 const pascalCase = computed(() => {
-  return variable.value
-    .toLowerCase()
+  return standardFormat.value
     .split(/\s+/)
     .map((word) => {
       if (word) {
