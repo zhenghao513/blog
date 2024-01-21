@@ -42,7 +42,7 @@ const pascalCase = computed(() => {
 });
 
 const constantCase = computed(() => {
-  return kebabCase.value.toUpperCase().replace('-', '_');
+  return kebabCase.value.toUpperCase().replaceAll('-', '_');
 });
 
 const block = ref('');
