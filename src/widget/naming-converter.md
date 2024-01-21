@@ -5,16 +5,12 @@ import {
   Form as AForm,
   FormItem as AFormItem,
   TypographyParagraph as ATypographyParagraph,
-} from 'ant-design-vue'
+} from 'ant-design-vue';
 
 const variable = ref('');
 
 const kebabCase = computed(() => {
-  return variable.value
-    .trim()
-    .toLowerCase()
-    .split(/\s+/)
-    .join('-');
+  return variable.value.trim().toLowerCase().split(/\s+/).join('-');
 });
 
 const camelCase = computed(() => {
@@ -49,34 +45,37 @@ const constantCase = computed(() => {
   return kebabCase.value.toUpperCase().replace('-', '_');
 });
 
-const block = ref('')
-const element = ref('')
-const modifier = ref('')
+const block = ref('');
+const element = ref('');
+const modifier = ref('');
 
 const blockFormat = computed(() => {
-  return block.value.trim().toLowerCase().split(/\s+/).join('-')
-})
+  return block.value.trim().toLowerCase().split(/\s+/).join('-');
+});
+
 const elementFormat = computed(() => {
   if (element.value) {
-    return `__${element.value.trim().toLowerCase().split(/\s+/).join('-')}`
+    return `__${element.value.trim().toLowerCase().split(/\s+/).join('-')}`;
   }
 
-  return ''
-})
+  return '';
+});
+
 const modifierFormat = computed(() => {
   if (modifier.value) {
-    return `--${modifier.value.trim().toLowerCase().split(/\s+/).join('-')}`
+    return `--${modifier.value.trim().toLowerCase().split(/\s+/).join('-')}`;
   }
 
-  return ''
-})
-const blockElementModifierCase = computed(() => {
+  return '';
+});
+
+const bemCase = computed(() => {
   if (modifier.value === '') {
-    return blockFormat.value + elementFormat.value
+    return blockFormat.value + elementFormat.value;
   }
 
-  return blockFormat.value + elementFormat.value + modifierFormat.value
-})
+  return blockFormat.value + elementFormat.value + modifierFormat.value;
+});
 </script>
 
 # 命名转换器
@@ -119,7 +118,7 @@ const blockElementModifierCase = computed(() => {
       <AInput v-model:value="element" allow-clear />
     </AFormItem>
     <AFormItem
-      label="修饰"
+      label="修饰语"
       colon
     >
       <AInput v-model:value="modifier" allow-clear />
@@ -129,4 +128,4 @@ const blockElementModifierCase = computed(() => {
 
 ### block\_\_element--modifier <Badge type="info" text="BEM" />
 
-<ATypographyParagraph copyable>{{ blockElementModifierCase }}</ATypographyParagraph>
+<ATypographyParagraph copyable>{{ bemCase }}</ATypographyParagraph>
