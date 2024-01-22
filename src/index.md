@@ -18,11 +18,11 @@ hero:
 
 features:
   - title: PAT
-    details: 💻 浙江大学 PAT 题解（Java or Python）
+    details: 💻 浙江大学 PAT 题解
   - title: LeetCode
-    details: 🗡 剑指 Offer 题解（JavaScript）
+    details: 🗡 LeetCode 题解
   - title: 配置文件
-    details: 📄 快速搭建开发环境和配置项目依赖
-  - title: 小部件
-    details: 🧰 内置了多个实用的程序
+    details: 📄 快速搭建开发环境
+  - title: 实用工具
+    details: 🔨 内置了多个实用的程序
 ---

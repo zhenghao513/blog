@@ -444,7 +444,7 @@ export const sidebar: DefaultTheme.Sidebar = [
 
   },
   {
-    text: '小部件',
+    text: '实用工具',
     items: [{ text: '命名转换器', link: '/widget/naming-converter' }],
   },
 ]
