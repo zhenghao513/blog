@@ -94,7 +94,7 @@ const bemCase = computed(() => {
 
 <ATypographyParagraph copyable>{{ pascalCase }}</ATypographyParagraph>
 
-### CONSTANT_CASE <Badge type="info" text="常量" />
+### UPPERCASE_VARIABLES <Badge type="info" text="常量" />
 
 <ATypographyParagraph copyable>{{ constantCase }}</ATypographyParagraph>
 
