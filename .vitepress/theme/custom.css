@@ -17,7 +17,7 @@
     #abdcff 10%,
     #0396ff 100%
   );
-  --vp-home-hero-image-filter: blur(1.5rem);
+  --vp-home-hero-image-filter: blur(68px);
 
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);

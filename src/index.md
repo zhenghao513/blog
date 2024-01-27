@@ -7,6 +7,9 @@ hero:
   name: Blog
   text: 科技艺术的博客
   tagline: Rethink Possibilities
+  image:
+    src: /icon.jpg
+    alt: 科技艺术
 
   actions:
     - theme: brand

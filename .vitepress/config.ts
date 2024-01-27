@@ -297,7 +297,9 @@ export const sidebar: DefaultTheme.Sidebar = [
         ],
       },
       {
-        text: 'easy', collapsed: true, items: [
+        text: 'easy',
+        collapsed: true,
+        items: [
           {
             text: '1. 两数之和',
             link: '/leetcode/easy/1. 两数之和',
@@ -441,7 +443,6 @@ export const sidebar: DefaultTheme.Sidebar = [
         docFooterText: 'vscode-settings 配置文件',
       },
     ],
-
   },
   {
     text: '实用工具',
@@ -456,6 +457,7 @@ export default defineConfig({
   description: '科技艺术的博客',
   base: '/blog/',
   srcDir: './src',
+  head: [['link', { rel: 'icon', href: '/blog/icon.jpg' }]],
   lastUpdated: true,
   themeConfig: {
     sidebar,
