@@ -5,7 +5,7 @@
 ```json
 {
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "Cascadia Code, 'Microsoft YaHei', monospace",
+  "editor.fontFamily": "Consolas, 'Microsoft YaHei', monospace",
   "editor.linkedEditing": true,
   "formattingToggle.affects": [
     "editor.formatOnSave",
