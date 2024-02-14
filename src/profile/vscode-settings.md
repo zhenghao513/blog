@@ -5,12 +5,14 @@
 ```json
 {
   "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Consolas, 'Microsoft YaHei', monospace",
   "editor.linkedEditing": true,
   "formattingToggle.affects": [
     "editor.formatOnSave",
     "editor.codeActionsOnSave.source.fixAll.eslint"
   ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "vue.autoInsert.dotValue": true,
   "vue.inlayHints.missingProps": true,
   "vue.updateImportsOnFileMove.enabled": true,
