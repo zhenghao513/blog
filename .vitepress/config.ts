@@ -422,7 +422,7 @@ export const sidebar: DefaultTheme.Sidebar = [
         link: '/profile/gitignore',
         docFooterText: 'gitignore 配置文件',
       },
-      {
+            {
         text: 'Prettier 配置文件',
         link: '/profile/prettier',
         docFooterText: 'Prettier 配置文件',
@@ -441,6 +441,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         text: 'vscode-settings 配置文件',
         link: '/profile/vscode-settings',
         docFooterText: 'vscode-settings 配置文件',
+      },
+      {
+        text: 'winget 配置文件',
+        link: '/profile/winget',
+        docFooterText: 'winget 配置文件',
       },
     ],
   },
