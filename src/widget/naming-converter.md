@@ -7,9 +7,9 @@ import {
   TypographyParagraph as ATypographyParagraph,
 } from 'ant-design-vue';
 
-const variable = ref('');
+const multipleWords = ref('');
 
-const standardFormat = computed(() => variable.value.trim().toLowerCase());
+const standardFormat = computed(() => multipleWords.value.trim().toLowerCase());
 
 const kebabCase = computed(() => standardFormat.value.replace(/\s+/g, '-'));
 
@@ -79,7 +79,7 @@ const bemCase = computed(() => {
 # 命名转换器
 
 <div style="margin-top: 32px">
-  <AInput v-model:value="variable" allow-clear />
+  <AInput v-model:value="multipleWords" allow-clear />
 </div>
 
 ### kebab-case <Badge type="info" text="短横线" />
