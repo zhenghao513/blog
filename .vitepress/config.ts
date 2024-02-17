@@ -408,42 +408,42 @@ export const sidebar: DefaultTheme.Sidebar = [
     text: '配置文件',
     items: [
       {
-        text: '.eslintrc 配置文件',
+        text: '.eslintrc',
         link: '/profile/eslintrc',
         docFooterText: '.eslintrc 配置文件',
       },
       {
-        text: 'GitHub Actions 配置文件',
+        text: 'GitHub Actions',
         link: '/profile/github-actions',
         docFooterText: 'GitHub Actions 配置文件',
       },
       {
-        text: 'gitignore 配置文件',
+        text: 'gitignore',
         link: '/profile/gitignore',
         docFooterText: 'gitignore 配置文件',
       },
-            {
-        text: 'Prettier 配置文件',
+      {
+        text: 'Prettier',
         link: '/profile/prettier',
         docFooterText: 'Prettier 配置文件',
       },
       {
-        text: 'tsconfig.json 配置文件',
+        text: 'tsconfig.json',
         link: '/profile/tsconfig.json',
         docFooterText: 'tsconfig.json 配置文件',
       },
       {
-        text: 'Vite 配置文件',
+        text: 'Vite',
         link: '/profile/vite',
         docFooterText: 'Vite 配置文件',
       },
       {
-        text: 'vscode-settings 配置文件',
+        text: 'vscode-settings',
         link: '/profile/vscode-settings',
         docFooterText: 'vscode-settings 配置文件',
       },
       {
-        text: 'winget 配置文件',
+        text: 'winget',
         link: '/profile/winget',
         docFooterText: 'winget 配置文件',
       },
