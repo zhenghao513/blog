@@ -2,8 +2,9 @@
 
 ```json
 {
+  "printWidth": 100,
   "tabWidth": 2,
-  "semi": false,
+  "semi": true,
   "singleQuote": true,
   "trailingComma": "all",
   "arrowParens": "always",
