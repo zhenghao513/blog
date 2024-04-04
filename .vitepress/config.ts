@@ -413,6 +413,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         docFooterText: '.eslintrc 配置文件',
       },
       {
+        text: 'Git',
+        link: '/profile/git',
+        docFooterText: 'Git 配置文件',
+      },
+      {
         text: 'GitHub Actions',
         link: '/profile/github-actions',
         docFooterText: 'GitHub Actions 配置文件',
@@ -421,6 +426,11 @@ export const sidebar: DefaultTheme.Sidebar = [
         text: 'gitignore',
         link: '/profile/gitignore',
         docFooterText: 'gitignore 配置文件',
+      },
+      {
+        text: 'npm',
+        link: '/profile/npm',
+        docFooterText: 'npm 配置文件',
       },
       {
         text: 'Prettier',
