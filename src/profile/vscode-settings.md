@@ -26,6 +26,7 @@
 ```bash
 code --install-extension aaron-bond.better-comments
 code --install-extension alibaba-cloud.tongyi-lingma
+code --install-extension antfu.unocss
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
