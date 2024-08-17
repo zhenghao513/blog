@@ -6,7 +6,7 @@
 {
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Consolas, 'Microsoft YaHei', monospace",
+  "editor.fontFamily": "'Source Code Pro', Consolas, 'Microsoft YaHei', monospace",
   "editor.linkedEditing": true,
   "formattingToggle.affects": [
     "editor.formatOnSave",
