@@ -8,6 +8,6 @@
   "singleQuote": true,
   "trailingComma": "all",
   "arrowParens": "always",
-  "singleAttributePerLine": true
+  "bracketSameLine": true
 }
 ```
