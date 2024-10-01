@@ -7,7 +7,6 @@
   "semi": true,
   "singleQuote": true,
   "trailingComma": "all",
-  "arrowParens": "always",
-  "bracketSameLine": true
+  "arrowParens": "always"
 }
 ```
