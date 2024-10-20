@@ -3,7 +3,7 @@
 ```bash
 winget install 9N0DX20HK701 -s msstore
 winget install XP89DCGQ3K6VLD -s msstore
-winget install Microsoft.VisualStudioCode JetBrains.WebStorm OpenJS.NodeJS.LTS Microsoft.OneDrive
+winget install Microsoft.VisualStudioCode JetBrains.WebStorm OpenJS.NodeJS.LTS Microsoft.OneDrive Git.Git
 ```
 
 ### Laptop
@@ -11,5 +11,5 @@ winget install Microsoft.VisualStudioCode JetBrains.WebStorm OpenJS.NodeJS.LTS M
 ```bash
 winget install 9N0DX20HK701 -s msstore
 winget install XP89DCGQ3K6VLD -s msstore
-winget install Microsoft.VisualStudioCode JetBrains.IntelliJIDEA.Ultimate OpenJS.NodeJS.LTS Microsoft.OneDrive Tencent.WeChat Tencent.WeixinDevTools Webyog.SQLyogCommunity Azul.Zulu.8.JDK
+winget install Microsoft.VisualStudioCode JetBrains.IntelliJIDEA.Ultimate OpenJS.NodeJS.LTS Microsoft.OneDrive Git.Git Tencent.WeChat Tencent.WeixinDevTools Webyog.SQLyogCommunity Azul.Zulu.8.JDK Tencent.TencentMeeting
 ```
